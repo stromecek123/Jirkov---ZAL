@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: #2195f389;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+main {
+    position: fixed;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    padding-left: 250px;
+    font-size: 18pt;
+}
+
+h4 {
+    padding-left: 250px;
+    font-size: 14pt;
+}
+
+#logo {
+    border-right: 4px solid black;
+    width: auto;
+    height: 100%;
+    margin-right: 30px;
+}
+
+#plakat {
+    width: 200px;
+    height: auto;
+    padding-left: 280px;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    border: 4px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/jirkov2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: #D3D3D3;
+}
+
+.box2 {
+    width: 115px;
+    height: 100%;
+    background-color: #2195f3a2;
+    border: 4px solid black;
+    border-top: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.menu {
+    position: absolute;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    width: 130px;
+    background-color: #F1FFE7;
+    display: none;
+    margin-left: 107px;
+    border-left: 4px black solid;
+}
+
+.box_menu {
+    width: 100%;
+    height: 80px;
+    background-color: #2196F3;
+    font-size: 14pt;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 4px solid black;
+    position: absolute;
+}
+
+.box_menu:hover + .menu {
+    display: block;
+}
+
+.menu:hover {
+    display: block;
+}
+
+.menu a{
+    display: block;
+    font-size: 15pt;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+}
+
+ul {
+    list-style-type: none   ;
+}
+
+.map {
+    color: grey
+}
