@@ -17,10 +17,10 @@ h2 {
 
 h3 {
     padding-left: 250px;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
-h4 {
+p {
     padding-left: 250px;
     font-size: 14pt;
 }
@@ -107,5 +107,13 @@ ul {
 }
 
 .map {
-    color: grey
+    color: grey;
+    font-size: 14pt;
+}
+
+dt {
+    padding-left: 250px;
+    font-size: 15pt;
+    font-weight: bold;
+    display: flex;
 }
