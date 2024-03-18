@@ -32,7 +32,7 @@ p {
     margin-right: 30px;
 }
 
-#plakat {
+.plakat {
     width: 200px;
     height: auto;
     padding-left: 280px;
@@ -116,4 +116,8 @@ dt {
     font-size: 15pt;
     font-weight: bold;
     display: flex;
+}
+
+#nadpis {
+    padding-left: 230px;
 }
